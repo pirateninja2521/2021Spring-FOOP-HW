@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "always-play-first-card",
+      "setup": "cd src && javac TestSuite.java -d ../out/",
+      "run": "java -cp out/ TestSuite always-play-first-card",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 13
+    },
+    {
+      "name": "normal-no-error-play1",
+      "setup": "cd src && javac TestSuite.java -d ../out/",
+      "run": "java -cp out/ TestSuite normal-no-error-play1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 16
+    },
+    {
+      "name": "normal-no-error-play2",
+      "setup": "cd src && javac TestSuite.java -d ../out/",
+      "run": "java -cp out/ TestSuite normal-no-error-play2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 16
+    },
+    {
+      "name": "illegal-actions",
+      "setup": "cd src && javac TestSuite.java -d ../out/",
+      "run": "java -cp out/ TestSuite illegal-actions",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "BONUS: straight",
+      "setup": "cd src && javac TestSuite.java -d ../out/",
+      "run": "java -cp out/ TestSuite straight",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "BONUS: fullhouse",
+      "setup": "cd src && javac TestSuite.java -d ../out/",
+      "run": "java -cp out/ TestSuite fullhouse",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    }
+  ]
+}
